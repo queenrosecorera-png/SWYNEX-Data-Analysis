@@ -5,7 +5,7 @@ The goal was to pick a public dataset, find the data quality issues in it, and c
 
 Dataset used: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
 
-I cleaned the data using Python. Here's what I fixed:
+I cleaned the data using Google Colab(Python). Here's what I fixed:
 
 A lot of rows had missing information in certain columns, so I either removed those rows or filled them in with a reasonable value, depending on what made sense. 
 There were also repeated rows (the same entry showing up more than once), so I removed the extra copies. 
