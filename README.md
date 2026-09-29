@@ -5,7 +5,7 @@
 This is Task 1 of my Data Analyst Internship at SWYNEX Technologies. 
 The goal was to pick a public dataset, find the data quality issues in it, and clean them up using Python, SQL, or Excel.
 
-Dataset used: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+## Dataset used: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
 
 I cleaned the data using Google Colab(Python). Here's what I fixed:
 
@@ -16,17 +16,17 @@ Lastly, some entries were written inconsistently, like the same word spelled wit
 
 #TASK 2 - EXPLORATORY DATA ANALYSIS
 
-What I did:
+## What I did:
 
 After cleaning the Online Retail II dataset in Task 1, I explored it to find useful patterns in sales, products, customers and countries.
 I used Python (pandas and matplotlib) for all the analysis and charts.
 
-Dataset used:
+## Dataset used:
 
 online_retail_cleaned.csv (the file I cleaned in Task 1), around 1,027,022 rows.
 I cant upload it because the dataset is large.
 
-How I approached it:
+## How I approached it:
 
 I first added a Revenue column (Quantity x Price), since it wasn't already in the data.
 Then I grouped the data in different ways - by month, by product, by country, by customer and by cancellation status - to answer specific business questions.
