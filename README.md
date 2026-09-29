@@ -1,6 +1,6 @@
-# Online Retail II - Data Cleaning
+## Online Retail II - Data Cleaning
 
-#TASK 1 - DATA CLEANING
+## TASK 1 - DATA CLEANING
 
 This is Task 1 of my Data Analyst Internship at SWYNEX Technologies. 
 The goal was to pick a public dataset, find the data quality issues in it, and clean them up using Python, SQL, or Excel.
@@ -14,7 +14,7 @@ There were also repeated rows (the same entry showing up more than once), so I r
 Some columns were stored in the wrong format, like dates that were saved as plain text instead of actual dates, so I converted those properly. 
 Lastly, some entries were written inconsistently, like the same word spelled with different capitalization or extra spaces, so I made those consistent.
 
-#TASK 2 - EXPLORATORY DATA ANALYSIS
+## TASK 2 - EXPLORATORY DATA ANALYSIS
 
 ## What I did:
 
@@ -57,7 +57,7 @@ I also noticed 78% of all rows have no Customer ID at all, so a lot of revenue c
 About 7.75% of revenue (around 1.46 million) comes from cancelled orders.
 That's a decent chunk of money that never actually stayed as real sales.
 
-# Task 3 - Interactive Dashboard
+## Task 3 - Interactive Dashboard
 
 ## What I did
 Built a Power BI dashboard using the cleaned Online Retail II data, to show the main findings from Task 2 in one interactive view.
