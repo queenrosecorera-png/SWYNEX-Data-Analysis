@@ -56,3 +56,24 @@ I also noticed 78% of all rows have no Customer ID at all, so a lot of revenue c
 5. Cancellations are a real loss:
 About 7.75% of revenue (around 1.46 million) comes from cancelled orders.
 That's a decent chunk of money that never actually stayed as real sales.
+
+# Task 3 - Interactive Dashboard
+
+## What I did
+Built a Power BI dashboard using the cleaned Online Retail II data, to show the main findings from Task 2 in one interactive view.
+
+## What's in it
+KPI cards (Revenue, Orders, Customers, Cancellation Rate, Average Order Value), a monthly revenue trend, top products by quantity and revenue, a country map, a customer treemap, and a cancelled vs completed donut chart. Filters for date, country, year, cancelled status, and product search.
+
+## Key findings
+- Total revenue: ~18.44M from 48K orders and 5.9K customers
+- Revenue peaks every November (Christmas shopping) and dips in February
+- ~85% of revenue comes from the UK
+- Top 10% of customers bring in more than half the revenue
+- Best-selling product by quantity isn't the top earner by revenue
+- ~8% of revenue is lost to cancellations
+
+## What I learned
+First time writing DAX measures and using chart types like maps and treemaps. Learned that a good dashboard shows the main story clearly, not just more charts.
+
+I have attached my dashboard both powerbi file and screenshots.
